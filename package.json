@@ -1,0 +1,21 @@
+{
+  "name": "next-docker-template",
+  "version": "1.0.0",
+  "description": "[![Facebook-Page][facebook-shield]][facebook-url]\r [![Twitter][twitter-shield]][twitter-url]\r [![Instagram][instagram-shield]][instagram-url]\r [![LinkedIn][linkedin-shield]][linkedin-url]",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up",
+    "build": "docker-compose build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsshonjoydas/next-docker-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsshonjoydas/next-docker-template/issues"
+  },
+  "homepage": "https://github.com/rsshonjoydas/next-docker-template#readme"
+}

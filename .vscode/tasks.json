@@ -1,0 +1,62 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build",
+      "path": "client/",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: build - client",
+      "detail": "next build"
+    },
+    {
+      "type": "npm",
+      "script": "dev",
+      "path": "client/",
+      "problemMatcher": [],
+      "label": "npm: dev - client",
+      "detail": "next dev"
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "path": "client/",
+      "problemMatcher": [],
+      "label": "npm: start - client",
+      "detail": "next start"
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "problemMatcher": [],
+      "label": "npm: start",
+      "detail": "docker-compose up"
+    },
+    {
+      "type": "npm",
+      "script": "build",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: build",
+      "detail": "docker-compose build"
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "path": "server/",
+      "problemMatcher": [],
+      "label": "npm: start - server",
+      "detail": "nodemon -r esm ./src/server.js"
+    },
+    {
+      "type": "npm",
+      "script": "test",
+      "path": "server/",
+      "group": "test",
+      "problemMatcher": [],
+      "label": "npm: test - server",
+      "detail": "jest --runInBand --watch --force-exit"
+    }
+  ]
+}
